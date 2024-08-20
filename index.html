@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <title>Jujutsu Kaisen 0 - O filme</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="video/jujutsu-trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="images/jujutsu-logo.png" alt="logo jujutsu kaisen 0">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="images/jujutsu-titulo.png" alt="Título do filme">
+            <p class="descricao">O jovem Yuta Okkotsu ganha o controle de um espírito extremamente poderoso, então um grupo de feiticeiros o matriculam na Tokyo Prefectural Jujutsu High School, para ajudá-lo a controlar esse poder e também para ficar de olho nele.</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="personagens" src="images/personagens.png" alt="Personagens Mario">
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8QkHWlrHqlE?si=cM-40JweuvuQpb_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
